@@ -1,0 +1,109 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  text-align: center;
+}
+body {
+  font-family: "Open Sans", sans-serif;
+}
+.container {
+  padding-right: 75px;
+  padding-left: 75px;
+  margin-right: auto;
+  margin-left: auto;
+}
+header {
+  text-align: center;
+}
+header p {
+  font-size: 20px;
+  color: #777;
+}
+.heart {
+  font-size: 60px;
+  color: deeppink;
+  margin: 0;
+}
+.husband {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+}
+
+.husband img {
+  width: 350px;
+  height: 350px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.ring img {
+  width: 300px;
+  height: 300px;
+  /* margin-bottom: 120px; */
+}
+.husband h3 {
+  font-size: 25px;
+  position: relative;
+  border-bottom: 2px solid deeppink;
+  width: fit-content;
+  margin: 10px auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+.husband .groom h3::after {
+  content: "Groom";
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: white;
+  padding: 2px 8px;
+  font-size: 20px;
+  color: #999;
+}
+.husband .bride h3::after {
+  content: "Bride";
+  position: absolute;
+  top: 70%;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: white;
+  padding: 2px 8px;
+  font-size: 20px;
+  color: #999;
+}
+.husband .links {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+.links:visited {
+  color: white;
+}
+.husband .links:hover {
+  cursor: pointer;
+}
+.links .fa-facebook:hover {
+  color: blue;
+}
+.links .fa-instagram:hover {
+  color: deeppink;
+}
+.links .fa-twitter:hover {
+  color: #3b88f1;
+}
+.links .fa-youtube:hover {
+  color: red;
+}
+.husband .links i {
+  font-size: 30px;
+}
+.husband p {
+  color: #777;
+  min-width: 100%;
+  color: deeppink;
+}
