@@ -6,15 +6,13 @@
 }
 body {
   font-family: "Open Sans", sans-serif;
+  background-color: hsl(328, 100%, 54%, 20%);
 }
 .container {
   padding-right: 75px;
   padding-left: 75px;
   margin-right: auto;
   margin-left: auto;
-}
-header {
-  text-align: center;
 }
 header p {
   font-size: 20px;
@@ -35,14 +33,11 @@ header p {
   width: 350px;
   height: 350px;
   border-radius: 50%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .ring img {
   width: 300px;
   height: 300px;
-  /* margin-bottom: 120px; */
+  color: hsl(328, 100%, 54%, 20%);
 }
 .husband h3 {
   font-size: 25px;
@@ -53,27 +48,24 @@ header p {
   padding: 20px;
   border-radius: 20px;
 }
+.husband .groom h3::after,
+.husband .bride h3::after {
+  top: 75%;
+  left: 50%;
+  transform: translate(-50%);
+  background-color: #7b087b;
+  padding: 4px 10px;
+  font-size: 20px;
+  color: deeppink;
+  border-radius: 10px;
+}
 .husband .groom h3::after {
   content: "Groom";
   position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%);
-  background-color: white;
-  padding: 2px 8px;
-  font-size: 20px;
-  color: #999;
 }
 .husband .bride h3::after {
   content: "Bride";
   position: absolute;
-  top: 70%;
-  left: 50%;
-  transform: translate(-50%);
-  background-color: white;
-  padding: 2px 8px;
-  font-size: 20px;
-  color: #999;
 }
 .husband .links {
   display: flex;
@@ -107,12 +99,12 @@ header p {
   min-width: 100%;
   color: deeppink;
 }
-
-.husband .groom img:hover {
-  transform: scale(1.1);
-  border: 2px solid deeppink;
+.husband .groom img,
+.husband .bride img {
+  transition-duration: 0.5s;
 }
+.husband .groom img:hover,
 .husband .bride img:hover {
   transform: scale(1.1);
-  border: 2px solid deeppink;
+  border: 3px solid deeppink;
 }
