@@ -77,8 +77,8 @@ header p {
   gap: 30px;
   margin-top: 20px;
 }
-.links:visited {
-  color: white;
+a {
+  color: black;
 }
 .husband .links:hover {
   cursor: pointer;
