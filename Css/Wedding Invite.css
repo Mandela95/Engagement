@@ -3,6 +3,7 @@
   -moz-box-sizing: border-box;
   box-sizing: border-box;
   text-align: center;
+  margin: 0;
 }
 body {
   font-family: "Open Sans", sans-serif;
@@ -131,6 +132,7 @@ a {
   color: #777;
   min-width: 100%;
   color: deeppink;
+  margin-top: 20px;
 }
 .husband .groom img,
 .husband .bride img {
