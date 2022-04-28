@@ -80,23 +80,52 @@ header p {
 a {
   color: black;
 }
-.husband .links:hover {
+.husband .social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 20px;
+}
+.social-icons:hover {
   cursor: pointer;
 }
-.links .fa-facebook:hover {
-  color: blue;
+.social-icons .fa-facebook {
+  color: #385898;
 }
-.links .fa-instagram:hover {
-  color: deeppink;
+.social-icons .fa-facebook:hover {
+  color: #241dbd;
 }
-.links .fa-twitter:hover {
+
+.social-icons .fa-twitter {
+  color: #1da1f2;
+}
+.social-icons .fa-twitter:hover {
   color: #3b88f1;
 }
-.links .fa-youtube:hover {
+
+.social-icons .fa-instagram {
+  color: #9c0557;
+}
+.social-icons .fa-instagram:hover {
+  color: deeppink;
+}
+
+.social-icons .fa-github {
+  color: black;
+}
+.social-icons .fa-github:hover {
   color: red;
 }
-.husband .links i {
-  font-size: 30px;
+
+.social-icons .fa-youtube {
+  color: red;
+}
+.social-icons .fa-youtube:hover {
+  color: black;
+}
+
+.social-icons i {
+  font-size: 40px;
 }
 .husband p {
   color: #777;
