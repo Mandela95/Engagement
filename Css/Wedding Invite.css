@@ -8,13 +8,13 @@
 body {
   font-family: "Open Sans", sans-serif;
   background-color: hsl(328, 100%, 54%, 20%);
+  overflow: hidden;
 }
 .container {
   padding-right: 75px;
   padding-left: 75px;
   margin-right: auto;
   margin-left: auto;
-  overflow: hidden;
 }
 header {
   margin-top: 20px;
