@@ -153,9 +153,7 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-  }
-   .groom img {
-     margin-top: 15px;
+    margin-top: 15px;
   }
   .husband h3 {
     font-size: 22px;
